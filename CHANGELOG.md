@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0-alpha.2 (2025-01-02)
+
+Full Changelog: [v0.1.0-alpha.1...v0.1.0-alpha.2](https://github.com/captainsza/empireshpere_sdk/compare/v0.1.0-alpha.1...v0.1.0-alpha.2)
+
+### Chores
+
+* **internal:** codegen related update ([#8](https://github.com/captainsza/empireshpere_sdk/issues/8)) ([1c68f7e](https://github.com/captainsza/empireshpere_sdk/commit/1c68f7eefa3172b614ebedc21f3a1e44f222e530))
+
 ## 0.1.0-alpha.1 (2024-12-23)
 
 Full Changelog: [v0.0.1-alpha.1...v0.1.0-alpha.1](https://github.com/captainsza/empireshpere_sdk/compare/v0.0.1-alpha.1...v0.1.0-alpha.1)
