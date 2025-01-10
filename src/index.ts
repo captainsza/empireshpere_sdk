@@ -21,6 +21,7 @@ const environments = {
   environment_1: 'http://localhost:3003/api',
 };
 type Environment = keyof typeof environments;
+
 export interface ClientOptions {
   /**
    * API key to authenticate against EmpireSphere Dashboard API.
