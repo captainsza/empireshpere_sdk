@@ -11,7 +11,11 @@ export class Files extends APIResource {
    * time.
    */
   retrieve(shareToken: string, options?: Core.RequestOptions): Core.APIPromise<Response> {
-    return this._client.get(`/share/${shareToken}`, { ...options, __binaryResponse: true });
+    return this._client.get(`/share/${shareToken}`, {
+      ...options,
+      headers: { Accept: 'application/octet-stream', ...options?.headers },
+      __binaryResponse: true,
+    });
   }
 
   /**
@@ -53,7 +57,11 @@ export class Files extends APIResource {
    * download it.
    */
   view(fileId: string, options?: Core.RequestOptions): Core.APIPromise<Response> {
-    return this._client.get(`/files/${fileId}/view`, { ...options, __binaryResponse: true });
+    return this._client.get(`/files/${fileId}/view`, {
+      ...options,
+      headers: { Accept: 'application/octet-stream', ...options?.headers },
+      __binaryResponse: true,
+    });
   }
 }
 
