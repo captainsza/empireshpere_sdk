@@ -6,7 +6,7 @@ This library provides convenient access to the Empiresphere REST API from server
 
 The REST API documentation can be found on [docs.empiresphere.com](https://docs.empiresphere.com). The full API of this library can be found in [api.md](api.md).
 
-It is generated with [Stainless](https://www.stainlessapi.com/).
+It is generated with [Stainless](https://www.stainless.com/).
 
 ## Installation
 
